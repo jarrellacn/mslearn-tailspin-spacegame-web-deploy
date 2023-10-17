@@ -1,7 +1,7 @@
 ﻿// Page
 body {
     color: black;
-    --link: #064EC0;
+    --link: #064ec0;
 }
 
 a {
@@ -22,8 +22,8 @@ section {
 
 .intro {
     height: 350px;
-    background-color: #666;
-    background-image: url('/images/space-background.svg');
+    background-color: green;
+    background-image: url("/images/space-background.svg");
     background-size: 1440px;
     background-position: center top;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ section {
         height: 180px;
         background-size: 800px;
         margin-top: -240px;
-        background-image: url('/images/space-foreground.svg');
+        background-image: url("/images/space-foreground.svg");
         background-repeat: no-repeat;
         background-position: center top;
     }
@@ -71,8 +71,8 @@ section {
             width: 160px;
             height: 100px;
             background: #eee;
-            margin: .25rem;
-            margin-top: .75rem;
+            margin: 0.25rem;
+            margin-top: 0.75rem;
 
             a {
                 display: block;
@@ -118,7 +118,7 @@ section {
             margin-top: 0;
 
             li {
-                padding: .5rem;
+                padding: 0.5rem;
             }
         }
     }
@@ -156,7 +156,7 @@ section {
     .high-score {
         border: 1px solid #999;
         border-top-color: transparent;
-        padding: 2rem 0 .5rem;
+        padding: 2rem 0 0.5rem;
     }
 
     .avatar {
@@ -166,7 +166,7 @@ section {
         background: gray;
         border-radius: 99px;
         display: inline-block;
-        margin-right: .5rem;
+        margin-right: 0.5rem;
     }
 
     .score-data {
@@ -214,7 +214,6 @@ section {
     }
 }
 
-
 .about {
     background: #eee;
 
@@ -244,7 +243,7 @@ section {
             display: block;
             width: 3rem;
             height: 3rem;
-            margin: .75rem;
+            margin: 0.75rem;
         }
 
         img {
